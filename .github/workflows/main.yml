@@ -10,9 +10,9 @@ on:
   pull_request:
     branches: [ main ]
 
+  #added 5 min schedule
   schedule:
-    - cron: '0/5 * * * *'
-  
+    - cron: '0/5 * * * *'  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
