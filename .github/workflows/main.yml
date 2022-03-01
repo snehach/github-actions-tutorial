@@ -11,8 +11,11 @@ on:
     branches: [ main ]
 
   #added 5 min schedule
-  schedule:
-    - cron: '0/5 * * * *'  
+  #schedule:
+  #  - cron: '0/5 * * * *'
+  
+  #Allows you to run manually from Actions Tab
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
